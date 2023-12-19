@@ -10,7 +10,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        ======루트 레이아웃 시작=====
+        {children}
+        ======루트 레이아웃 끝=====
+        </body>
     </html>
   )
 }
