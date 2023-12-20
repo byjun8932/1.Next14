@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from './page.module.css';
+import styles from '../page.module.css';
 import Link from 'next/link';
-import zlogo from '../../public/zlogo.png'
+import zlogo from '../../../public/zlogo.png'
 
 // tailwind -> 호불호 너무 심하고, 가독성이 안좋다.
 // Styled Component -> Server Component 에서 SSR 문제가 있음
